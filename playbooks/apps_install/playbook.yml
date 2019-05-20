@@ -10,9 +10,6 @@
     - name: Install Google Chrome
       homebrew_cask: name=google-chrome
     
-    - name: Install Docker
-      homebrew: name=docker
-
     - name: Install VSCode
       homebrew_cask: name=visual-studio-code
     
@@ -27,3 +24,15 @@
     
     - name: Install Skype
       homebrew_cask: name=skype
+    
+    - name: Install Git
+      homebrew: name=git
+    
+    - name: Install zsh
+      homebrew: name=zsh
+    
+    - name: Install iTerm2
+      homebrew_cask: name=iterm2
+    
+    - name: Install slack
+      homebrew_cask: name=slack
