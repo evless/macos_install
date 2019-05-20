@@ -4,8 +4,8 @@
   gather_facts: no
 
   tasks:
-    - name: Install nodejs
-      homebrew: name=node@10
+    # - name: Install nodejs
+    #   homebrew: name=node@10
 
     - name: Install Google Chrome
       homebrew_cask: name=google-chrome
