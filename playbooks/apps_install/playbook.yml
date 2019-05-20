@@ -1,0 +1,29 @@
+---
+
+- hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Install nodejs
+      homebrew: name=node@10
+
+    - name: Install Google Chrome
+      homebrew_cask: name=google-chrome
+    
+    - name: Install Docker
+      homebrew: name=docker
+
+    - name: Install VSCode
+      homebrew_cask: name=visual-studio-code
+    
+    - name: Install Discord
+      homebrew_cask: name=discord
+    
+    - name: Install VLC
+      homebrew_cask: name=vlc
+    
+    - name: Install Firefox
+      homebrew_cask: name=firefox
+    
+    - name: Install Skype
+      homebrew_cask: name=skype
