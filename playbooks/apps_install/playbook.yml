@@ -36,3 +36,9 @@
     
     - name: Install slack
       homebrew_cask: name=slack
+    
+    - name: Install yarn
+      homebrew: name=yarn
+
+    - name: Install mongodb
+      homebrew: name=mongodb
