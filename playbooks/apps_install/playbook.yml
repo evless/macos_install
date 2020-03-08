@@ -33,10 +33,7 @@
     
     - name: Install iTerm2
       homebrew_cask: name=iterm2
-    
-    - name: Install slack
-      homebrew_cask: name=slack
-    
+
     - name: Install yarn
       homebrew: name=yarn
 
