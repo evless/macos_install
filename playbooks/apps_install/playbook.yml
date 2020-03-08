@@ -21,10 +21,7 @@
     
     - name: Install Firefox
       homebrew_cask: name=firefox
-    
-    - name: Install Skype
-      homebrew_cask: name=skype
-    
+
     - name: Install Git
       homebrew: name=git
     
